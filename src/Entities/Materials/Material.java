@@ -1,4 +1,4 @@
-package Entities;
+package Entities.Materials;
 
 public abstract class Material {
 
@@ -12,7 +12,7 @@ public abstract class Material {
     long getId() {
         return this.id;
     }
-     String toString() {
+    public String toString() {
         return "Material{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
@@ -28,9 +28,10 @@ public abstract class Material {
      String getDescription() {
         return this.description;
     }
-     double getDensity() {
+     public double getDensity() {
         return this.density;
     }
+
      double getVolume() {
         return this.volume;
     }
@@ -46,7 +47,7 @@ public abstract class Material {
      void setDescription(String description) {
         this.description = description;
     }
-     void setDensity(double density) {
+     public void setDensity(double density) {
         this.density = density;
     }
      void setVolume(double volume) {
@@ -93,6 +94,5 @@ public abstract class Material {
                 ", color='" + color + '\'' +
                 '}';
     }
-     String getMaterial(long id, String
 
 }

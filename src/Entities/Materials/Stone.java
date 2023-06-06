@@ -1,4 +1,4 @@
-package Entities;
+package Entities.Materials;
 
 public class Stone extends Material{
     public Stone(){

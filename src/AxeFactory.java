@@ -1,6 +1,5 @@
-import Entities.Adamantium;
 import Entities.Axe;
-import Entities.Material;
+import Entities.Materials.Material;
 
 public class AxeFactory {
 
@@ -39,7 +38,7 @@ public class AxeFactory {
     }
 
     // Axe factory clone method
-    public Axe cloneAxe(Axe axe) {
+    /*public Axe cloneAxe(Axe axe) {
         return new Axe.Builder()
                 .setMaterial(axe.getMaterial())
                 .setSharpness(axe.getSharpness())
@@ -51,5 +50,5 @@ public class AxeFactory {
                 .setShape(axe.getShape())
                 .build();
     }
-
+*/
 }

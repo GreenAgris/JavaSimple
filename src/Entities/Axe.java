@@ -1,6 +1,8 @@
 package Entities;
 
 
+import Entities.Materials.Material;
+
 public class Axe {
     Material material;
     Dwarf owner;
@@ -50,9 +52,9 @@ public class Axe {
     // function for sharpness decrease per hit based on material, current sharpness and the material hit
     public int sharpnessDecrease(Material material, Material materialHit){
         //difference between densities of materials halved
-        double difference = (materialHit.density - material.density)/2;
+        double difference = (materialHit.getDensity() - material.getDensity())/2;
         //if difference is negative, it is set to 0
-        if(difference < 0){
+        if(difference < 0.0){
             difference = 1.0;
         }
         //sharpness is a coefficient to how much sharpness is decreased

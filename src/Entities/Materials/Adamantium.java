@@ -1,4 +1,4 @@
-package Entities;
+package Entities.Materials;
 
 public class Adamantium extends Material {
 

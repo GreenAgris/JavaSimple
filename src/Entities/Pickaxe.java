@@ -1,5 +1,8 @@
 package Entities;
 
+import Entities.Materials.Adamantium;
+import Entities.Materials.Material;
+
 public class Pickaxe extends Axe{
     int spikeLength;
 
