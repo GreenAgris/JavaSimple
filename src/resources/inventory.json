@@ -1,0 +1,35 @@
+{
+  "clients": [{
+    "id": 1,
+    "name": "Groovick",
+    "lastName": "Gortel",
+    "age": 125,
+    "clan": "MossHill",
+    "beard": "Scrugly and sharp",
+    "shield": "BlackWood engager"
+    }, {
+    "id": 2,
+    "name": "Gimli",
+    "lastName": "Gloin",
+    "age": 139,
+    "clan": "Durin's Folk",
+    "beard": "Long and braided",
+    "shield": null
+  }],
+    "axes": [{
+      "type": "Pickaxe",
+      "material": "Stone",
+      "weight": 4.5,
+      "length": 1.5,
+      "width": 0.2,
+      "sharpness": 80,
+      "spikeLength": 10
+    }, {
+      "type": "Axe",
+      "material": "Adamantium",
+      "weight": 2.5,
+      "length": 1.2,
+      "width": 0.2,
+      "sharpness": 180
+    }]
+}

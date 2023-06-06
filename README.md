@@ -8,6 +8,7 @@ actions to know before start:
 * Trigger inline suggestion	Alt+\
 * Open GitHub Copilot (additional suggestions in separate pane)	Alt+Enter
 * Open GitHub Copilot (additional suggestions in same pane)	Alt+Shift+Enter
+* Github
 
 
 

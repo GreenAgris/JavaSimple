@@ -12,6 +12,23 @@ public class Axe {
     String name;
     String shape;
 
+    //constructor with given parameters
+    public Axe(Material material, Dwarf owner, Dwarf creator, double weight, double length, double width, String description, String name, String shape) {
+        this.material = material;
+        this.owner = owner;
+        this.creator = creator;
+        this.weight = weight;
+        this.length = length;
+        this.width = width;
+        this.description = description;
+        this.name = name;
+        this.shape = shape;
+    }
+
+    public Axe() {
+
+    }
+
     public Material getMaterial() {
         return material;
     }
